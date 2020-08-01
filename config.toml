@@ -1,0 +1,75 @@
+baseURL = "http://tangxuemei1995.github.io/"
+publishdir = "/Users/tangtang/Desktop/myblog/tangxuemei1995.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Xuemei Tang"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "I'm Xuemei Tang"
+author = "Xuemei Tang"
+description = "The personal homepage of Xuemei Tang"
+profilePicture = "images/my.jpeg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/tangxuemei1995"
+
+[[params.socialIcons]]
+icon = "fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "tangxuemei@mail.bnu.edu.cn"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About Me"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
